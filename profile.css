@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  georgia;
+    cursor: pointer;
+    
+    
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(0, 0, 0);
+}
+
+.head {
+    text-align: left;
+    color: rgb(0, 249, 207);
+    margin: 10px;
+    font-size: 70px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    color: white;
+}
+nav li{
+    
+    display: inline-block;
+    margin: 0 15px;
+    font-size: x-large;
+    color: rgb(245, 245, 245);
+}
+
+.content {
+    color: white;
+    margin-top: 100px;
+    margin-left: 50px;
+    display: inline-block;
+}
+.btn{
+    font-size: 16px;
+    font-weight: 500px;
+    padding: 12px 35px;
+    color: white;
+    display: inline-block;
+    border-radius: 40px;
+    background: orange;
+    transition: all 0.3s ease;
+}
+.btn:hover
+{
+transform: scale(1.05);
+}
+.img {
+    display: inline-block;
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 100px;
+    
+    /* border: 5px solid rgb(22, 149, 203); */
+    padding: 10px;
+}
+.img::after{
+    content: "";
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-bottom: 10px solid rgb(22, 149, 203);
+    border-left: 10px solid rgb(22, 149, 203);
+    left: 1100px;
+    bottom: 190px;
+   
+}
+.img::before{
+    content: "";
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-top: 10px solid rgb(22, 149, 203);
+    border-right: 10px solid rgb(22, 149, 203);
+    right:  20px;
+    top: 270px;
+    
+    
+}
+#button{
+    font-size: 16px;
+    font-weight: 500px;
+    padding: 12px 35px;
+    color: white;
+    display: inline-block;
+    border-radius: 40px;
+    background: rgb(231, 131, 9);
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#button:hover{
+    transform: scale(1.05);
+}
+#butt{
+    font-size: 16px;
+    font-weight: 500px;
+    padding: 5px 10px;
+    color: white;
+    display: inline-block;
+    border-radius: 40px;
+    background: rgb(231, 131, 9);
+    transition: all 0.3s ease;
+
+}
+
+#butt:hover{
+    transform: scale(1.05);
+}
+.bt{
+    color: white;
+}
